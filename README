@@ -1,0 +1,9 @@
+CSU eInvoice:
+
+A simple servlet written in groovy/java that receives electronic invoices via http and processes those in CSU's financial system (KFS).
+
+To build the war:
+ant all
+
+To run:
+Drop the created war into Tomcat/Jetty/etc.

@@ -1,0 +1,17 @@
+#!/usr/bin/env groovy
+
+def dir1= "/opt/freeware/apache-tomcat-kfsinvd/webapps"
+def dir2= "/opt/freeware/apache-tomcat-kfsinvd/work/Catalina/localhost"
+def app = "upload"
+
+
+println "shutting down tomcat..."
+println "/usr/local/bin/shutdown_kfsinv_tomcat".execute().text
+
+println "removing old jar and tomcat dirs"
+println "before remove: ${dir1} contains:\n"+["sh","-c","ls -al ${dir1} | grep ${app}"].execute().text
+println "before remove: ${dir2} \n"+['sh', '-c',"ls -al ${dir2} | grep ${app}"].execute().text
+println (["sh","-c","rm -rf ${dir1}/${app}*"].execute().text)
+println (["sh","-c","rm -rf ${dir2}/${app}*"].execute().text)
+println "after remove: ${dir1} \n"+["sh","-c", "ls -al ${dir1} | grep ${app}"].execute().text
+println "after remove: ${dir2} \n"+["sh","-c","ls -al ${dir2} | grep ${app}"].execute().text

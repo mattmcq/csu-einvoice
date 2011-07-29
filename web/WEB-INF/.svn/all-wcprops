@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2292/einvoice/trunk/web/WEB-INF
+END
+electronicInvoice.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2292/einvoice/trunk/web/WEB-INF/electronicInvoice.xsd
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2923/einvoice/trunk/web/WEB-INF/web.xml
+END
