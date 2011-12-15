@@ -1,6 +1,7 @@
 CSU eInvoice:
 
 A simple servlet written in groovy/java that receives electronic invoices via http and processes those in CSU's financial system (KFS).
+(most of it is valid Java but Groovy was used mainly to simplify parsing the xml)
 
 To build the war:
 ant all

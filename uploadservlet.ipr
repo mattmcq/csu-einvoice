@@ -74,6 +74,7 @@
                 <set>
                   <DPropertyElement>
                     <option name="name" value="sendSuccessEmail" />
+                    <option name="static" value="false" />
                     <option name="type" value="java.lang.Object" />
                     <option name="myType" value="java.lang.Object" />
                     <option name="myStatic" value="false" />
@@ -93,6 +94,7 @@
                 <set>
                   <DPropertyElement>
                     <option name="name" value="ant" />
+                    <option name="static" value="true" />
                     <option name="type" value="groovy.util.AntBuilder" />
                     <option name="myType" value="groovy.util.AntBuilder" />
                     <option name="myStatic" value="true" />
@@ -287,20 +289,6 @@
         <entry key="$PROJECT_DIR$">
           <value>
             <SvnBranchConfiguration>
-              <option name="branchMap">
-                <map>
-                  <entry key="http://svnkfs.is.colostate.edu:8888/svn/einvoice/branches">
-                    <value>
-                      <list />
-                    </value>
-                  </entry>
-                  <entry key="http://svnkfs.is.colostate.edu:8888/svn/einvoice/tags">
-                    <value>
-                      <list />
-                    </value>
-                  </entry>
-                </map>
-              </option>
               <option name="branchUrls">
                 <list>
                   <option value="http://svnkfs.is.colostate.edu:8888/svn/einvoice/branches" />

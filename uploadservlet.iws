@@ -11,9 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CommittedChangesCache">
+    <option name="initialCount" value="10" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-    <option name="REVERSE_PATCH" value="false" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -58,85 +60,166 @@
     <favorites_list name="uploadservlet" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Mailer.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Mailer.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="71" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.61495847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="58" selection-start="2444" selection-end="2444" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build_dev.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build_dev.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroovyUploadServlet.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GroovyUploadServlet.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="36" selection-start="882" selection-end="989" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build_Tue_May_31_16-39-31_MDT_2011.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build_Tue_May_31_16-39-31_MDT_2011.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="12" selection-start="5002" selection-end="5009" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.39151168">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Mailer.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Mailer.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="31" column="5" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GroovyUploadServlet.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/GroovyUploadServlet.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="31" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="81" selection-start="232" selection-end="232" vertical-scroll-proportion="0.062370062">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JAVA/GroovyUploadServlet" pinned="false" current="false" current-in-tab="false">
+            <entry file="uml://JAVA/GroovyUploadServlet">
+              <provider selected="true" editor-type-id="UmlEditorProvider">
+                <state>
+                  <ID>JAVA</ID>
+                  <OriginalElement>GroovyUploadServlet</OriginalElement>
+                  <nodes>
+                    <node x="324.75" y="240.0">groovy.lang.GroovyObjectSupport</node>
+                    <node x="109.25000000000003" y="160.0">javax.servlet.http.HttpServlet</node>
+                    <node x="447.0" y="0.0">java.lang.Object</node>
+                    <node x="189.00000000000003" y="80.0">javax.servlet.GenericServlet</node>
+                    <node x="252.12500000000003" y="160.0">groovy.lang.GroovyObject</node>
+                    <node x="276.0" y="0.0">javax.servlet.Servlet</node>
+                    <node x="132.00000000000003" y="0.0">javax.servlet.ServletConfig</node>
+                    <node x="0.0" y="0.0">java.io.Serializable</node>
+                    <node x="128.75000000000003" y="240.0">GroovyUploadServlet</node>
+                  </nodes>
+                  <notes />
+                  <edges>
+                    <edge source="groovy.lang.GroovyObjectSupport" target="groovy.lang.GroovyObject">
+                      <point x="-44.75" y="-15.0" />
+                      <point x="369.5" y="215.0" />
+                      <point x="346.625" y="215.0" />
+                      <point x="31.5" y="15.0" />
+                    </edge>
+                    <edge source="javax.servlet.GenericServlet" target="java.lang.Object">
+                      <point x="49.5" y="-15.0" />
+                      <point x="304.5" y="60.0" />
+                      <point x="466.5" y="60.0" />
+                      <point x="-19.5" y="15.0" />
+                    </edge>
+                    <edge source="javax.servlet.GenericServlet" target="java.io.Serializable">
+                      <point x="-49.5" y="-15.0" />
+                      <point x="205.50000000000003" y="60.0" />
+                      <point x="84.0" y="60.0" />
+                      <point x="28.0" y="15.0" />
+                    </edge>
+                    <edge source="javax.servlet.http.HttpServlet" target="javax.servlet.GenericServlet">
+                      <point x="27.25" y="-15.0" />
+                      <point x="191.00000000000003" y="135.0" />
+                      <point x="255.00000000000003" y="135.0" />
+                      <point x="0.0" y="15.0" />
+                    </edge>
+                    <edge source="GroovyUploadServlet" target="javax.servlet.http.HttpServlet">
+                      <point x="-44.0" y="-15.0" />
+                      <point x="172.75000000000003" y="215.0" />
+                      <point x="163.75000000000003" y="215.0" />
+                      <point x="0.0" y="15.0" />
+                    </edge>
+                    <edge source="javax.servlet.GenericServlet" target="javax.servlet.ServletConfig">
+                      <point x="-16.5" y="-15.0" />
+                      <point x="238.50000000000003" y="50.0" />
+                      <point x="194.00000000000003" y="50.0" />
+                      <point x="0.0" y="15.0" />
+                    </edge>
+                    <edge source="javax.servlet.GenericServlet" target="javax.servlet.Servlet">
+                      <point x="16.5" y="-15.0" />
+                      <point x="271.5" y="50.0" />
+                      <point x="316.0" y="50.0" />
+                      <point x="0.0" y="15.0" />
+                    </edge>
+                    <edge source="groovy.lang.GroovyObjectSupport" target="java.lang.Object">
+                      <point x="44.75" y="-15.0" />
+                      <point x="459.0" y="215.0" />
+                      <point x="505.5" y="215.0" />
+                      <point x="19.5" y="15.0" />
+                    </edge>
+                    <edge source="javax.servlet.http.HttpServlet" target="java.io.Serializable">
+                      <point x="-27.25" y="-15.0" />
+                      <point x="136.50000000000003" y="135.0" />
+                      <point x="28.0" y="135.0" />
+                      <point x="-28.0" y="15.0" />
+                    </edge>
+                    <edge source="GroovyUploadServlet" target="groovy.lang.GroovyObject">
+                      <point x="44.0" y="-15.0" />
+                      <point x="260.75" y="215.0" />
+                      <point x="283.625" y="215.0" />
+                      <point x="-31.5" y="15.0" />
+                    </edge>
+                  </edges>
+                  <settings layout="Hierarchic Group" zoom="1.0" x="-20.5" y="-96.0" />
+                  <SelectedNodes>
+                    <node>GroovyUploadServlet</node>
+                  </SelectedNodes>
+                  <Categories />
+                  <SCOPE>All</SCOPE>
+                  <VISIBILITY>private</VISIBILITY>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="GroovyUploadServlet.groovy" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/GroovyUploadServlet.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="48" column="39" selection-start="1800" selection-end="1809" vertical-scroll-proportion="1.0162314">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="electronicInvoice.xsd" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/WEB-INF/electronicInvoice.xsd">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+    <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="mySelectedBranch" value="refs/heads/master" />
+    <option name="myStructureFilterPaths" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -146,12 +229,20 @@
         <option value="$PROJECT_DIR$/src/GroovyUploadServlet.groovy" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/src/Mailer.groovy" />
+        <option value="$PROJECT_DIR$/src/GroovyUploadServlet.java" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="22" />
+    <option name="width" value="2556" />
+    <option name="height" value="1578" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -179,8 +270,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,7 +284,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="einvoice" />
+              <option name="myItemId" value="einvoice shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,53 +294,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="einvoice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploadservlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="einvoice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploadservlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="einvoice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploadservlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="einvoice" />
+              <option name="myItemId" value="einvoice shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -262,22 +305,25 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="248" />
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="248" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="240" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="55" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="252" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="252" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="212" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="209" />
@@ -289,19 +335,23 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="1046" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="false" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
     <property name="GenerateAntBuildDialog.backupFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -425,24 +475,6 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4c6c5b08-9ce0-44e4-b6a5-a59eaa7ba614" name="Default" comment="" />
@@ -453,32 +485,41 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="2556" height="1578" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17900404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2053429" sideWeight="0.6702557" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54551584" sideWeight="0.4968102" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980047" sideWeight="0.6702557" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980047" sideWeight="0.6702557" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54551584" sideWeight="0.5003987" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329737" sideWeight="0.4984051" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1638756" sideWeight="0.45448416" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JavaRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10295291" sideWeight="0.6702557" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -504,6 +545,12 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="I03637- added bfs_kuali_implementation@colostate.edu to emails&#10;- added LOG.info to mailer instead of printlines&#10;- redid build script to include all jars needed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -541,50 +588,132 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="58" selection-start="2444" selection-end="2444" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="78" column="0" selection-start="2444" selection-end="2444" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" />
+        <state line="17" column="28" selection-start="588" selection-end="588" vertical-scroll-proportion="0.29640085" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_dev.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GroovyUploadServlet.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="36" selection-start="882" selection-end="989" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_Tue_May_31_16-39-31_MDT_2011.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="12" selection-start="5002" selection-end="5009" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mailer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="71" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.61495847">
+        <state line="31" column="5" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/electronicInvoice.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/GroovyUploadServlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>GroovyUploadServlet</OriginalElement>
+          <nodes>
+            <node x="324.75" y="240.0">groovy.lang.GroovyObjectSupport</node>
+            <node x="109.25000000000003" y="160.0">javax.servlet.http.HttpServlet</node>
+            <node x="447.0" y="0.0">java.lang.Object</node>
+            <node x="189.00000000000003" y="80.0">javax.servlet.GenericServlet</node>
+            <node x="252.12500000000003" y="160.0">groovy.lang.GroovyObject</node>
+            <node x="276.0" y="0.0">javax.servlet.Servlet</node>
+            <node x="132.00000000000003" y="0.0">javax.servlet.ServletConfig</node>
+            <node x="0.0" y="0.0">java.io.Serializable</node>
+            <node x="128.75000000000003" y="240.0">GroovyUploadServlet</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="groovy.lang.GroovyObjectSupport" target="groovy.lang.GroovyObject">
+              <point x="-44.75" y="-15.0" />
+              <point x="369.5" y="215.0" />
+              <point x="346.625" y="215.0" />
+              <point x="31.5" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="java.lang.Object">
+              <point x="49.5" y="-15.0" />
+              <point x="304.5" y="60.0" />
+              <point x="466.5" y="60.0" />
+              <point x="-19.5" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="java.io.Serializable">
+              <point x="-49.5" y="-15.0" />
+              <point x="205.50000000000003" y="60.0" />
+              <point x="84.0" y="60.0" />
+              <point x="28.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http.HttpServlet" target="javax.servlet.GenericServlet">
+              <point x="27.25" y="-15.0" />
+              <point x="191.00000000000003" y="135.0" />
+              <point x="255.00000000000003" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="GroovyUploadServlet" target="javax.servlet.http.HttpServlet">
+              <point x="-44.0" y="-15.0" />
+              <point x="172.75000000000003" y="215.0" />
+              <point x="163.75000000000003" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="javax.servlet.ServletConfig">
+              <point x="-16.5" y="-15.0" />
+              <point x="238.50000000000003" y="50.0" />
+              <point x="194.00000000000003" y="50.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="javax.servlet.Servlet">
+              <point x="16.5" y="-15.0" />
+              <point x="271.5" y="50.0" />
+              <point x="316.0" y="50.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="groovy.lang.GroovyObjectSupport" target="java.lang.Object">
+              <point x="44.75" y="-15.0" />
+              <point x="459.0" y="215.0" />
+              <point x="505.5" y="215.0" />
+              <point x="19.5" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http.HttpServlet" target="java.io.Serializable">
+              <point x="-27.25" y="-15.0" />
+              <point x="136.50000000000003" y="135.0" />
+              <point x="28.0" y="135.0" />
+              <point x="-28.0" y="15.0" />
+            </edge>
+            <edge source="GroovyUploadServlet" target="groovy.lang.GroovyObject">
+              <point x="44.0" y="-15.0" />
+              <point x="260.75" y="215.0" />
+              <point x="283.625" y="215.0" />
+              <point x="-31.5" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-20.5" y="-96.0" />
+          <SelectedNodes>
+            <node>GroovyUploadServlet</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GroovyUploadServlet.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="31" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="81" selection-start="232" selection-end="232" vertical-scroll-proportion="0.062370062">
           <folding />
         </state>
       </provider>
