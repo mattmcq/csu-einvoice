@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cXML SYSTEM "http://xml.cXML.org/schemas/cXML/1.2.009/InvoiceDetail.dtd">
+<cXML version="1.2.009" payloadID="20100501.010702_439986_uscobrmfa-ue-27" timestamp="2010-05-01T01:07:02-05:00" xml:lang="en-US">
+	<Header>
+		<From>
+			<Credential domain="DUNS" type="marketplace">
+				<Identity>170368430</Identity>
+			</Credential>
+		</From>
+		<To>
+			<Credential domain="NetworkID">
+				<Identity>15007866-T</Identity>
+			</Credential>
+		</To>
+		<Sender>
+			<Credential domain="NetworkID" type="marketplace">
+				<Identity>170368430</Identity>
+				<SharedSecret>3d_N0r3n</SharedSecret>
+			</Credential>
+			<UserAgent>Supplier</UserAgent>
+		</Sender>
+	</Header>
+	<Request deploymentMode="production">
+		<InvoiceDetailRequest>
+			<InvoiceDetailRequestHeader invoiceID="InvoiceID" purpose="standard" operation="new" invoiceDate="2010-05-01T23:59:59-05:00">
+				<InvoiceDetailHeaderIndicator/>
+				<InvoiceDetailLineIndicator isAccountingInLine="yes"/>
+				<InvoicePartner>
+					<Contact role="soldTo" addressID="582">
+						<Name xml:lang="en-US">Customer Name</Name>
+						<PostalAddress name="Customer Name">
+							<Street>Customer Address</Street>
+							<Street>Customer Address 2</Street>
+							<City>Customer City</City>
+							<State>Customer State</State>
+							<PostalCode>Customer Zip</PostalCode>
+							<Country isoCountryCode="US">United States</Country>
+						</PostalAddress>
+					</Contact>
+				</InvoicePartner>
+				<InvoicePartner>
+					<Contact role="billTo">
+						<Name xml:lang="en-US">Bill To Name</Name>
+						<PostalAddress name="default">
+							<Street>C/O CORPORATE EXPRESS</Street>
+							<Street>1133 POPLAR CREEK RD</Street>
+							<City>HENDERSON</City>
+							<State>NC</State>
+							<PostalCode>275378663</PostalCode>
+							<Country isoCountryCode="US">United States</Country>
+						</PostalAddress>
+						<Phone>
+							<TelephoneNumber>
+								<CountryCode isoCountryCode="US">United States</CountryCode>
+								<AreaOrCityCode>000</AreaOrCityCode>
+								<Number>0000000</Number>
+							</TelephoneNumber>
+						</Phone>
+						<Fax>
+							<TelephoneNumber>
+								<CountryCode isoCountryCode="US">United States</CountryCode>
+								<AreaOrCityCode/>
+								<Number/>
+							</TelephoneNumber>
+						</Fax>
+					</Contact>
+				</InvoicePartner>
+				<InvoiceDetailShipping>
+					<Contact role="shipTo">
+						<Name xml:lang="en-US">Customer Name</Name>
+						<PostalAddress name="default">
+							<Street>Customer Address</Street>
+							<Street>Customer Address2</Street>
+							<City>Customer City</City>
+							<State>Customer State</State>
+							<PostalCode>Customer Zip</PostalCode>
+							<Country isoCountryCode="US">United States</Country>
+						</PostalAddress>
+					</Contact>
+					<Contact role="shipFrom">
+						<Name xml:lang="en-US">COntact Name</Name>
+						<PostalAddress name="Contact Name">
+							<Street>Contact Address</Street>
+							<City>Contact City</City>
+							<State>Contact State</State>
+							<PostalCode>Contact Zip</PostalCode>
+							<Country isoCountryCode="US">United States</Country>
+						</PostalAddress>
+					</Contact>
+				</InvoiceDetailShipping>
+			</InvoiceDetailRequestHeader>
+			<InvoiceDetailOrder>
+				<InvoiceDetailOrderInfo>
+					<OrderReference orderID="OrderID">
+						<DocumentReference payloadID=""/>
+					</OrderReference>
+				</InvoiceDetailOrderInfo>
+				<InvoiceDetailItem invoiceLineNumber="Line Number" quantity="Quantity">
+					<UnitOfMeasure>UOM</UnitOfMeasure>
+					<UnitPrice>
+						<Money currency="USD">Price</Money>
+					</UnitPrice>
+					<InvoiceDetailItemReference lineNumber="1">
+						<ItemID>
+							<SupplierPartID>Part Number</SupplierPartID>
+						</ItemID>
+						<Description xml:lang="en">PPR,CPY,20#,LGL,GN</Description>
+					</InvoiceDetailItemReference>
+					<SubtotalAmount>
+						<Money currency="USD">Subtotal</Money>
+					</SubtotalAmount>
+					<GrossAmount>
+						<Money currency="USD">Gross</Money>
+					</GrossAmount>
+					<NetAmount>
+						<Money currency="USD">Net</Money>
+					</NetAmount>
+				</InvoiceDetailItem>
+				<InvoiceDetailItem invoiceLineNumber="Line Number" quantity="Quantity">
+					<UnitOfMeasure>UOM</UnitOfMeasure>
+					<UnitPrice>
+						<Money currency="USD">Price</Money>
+					</UnitPrice>
+					<InvoiceDetailItemReference lineNumber="2">
+						<ItemID>
+							<SupplierPartID>Part Number</SupplierPartID>
+						</ItemID>
+						<Description xml:lang="en">PPR,CPY,20#,LGL,GN</Description>
+					</InvoiceDetailItemReference>
+					<SubtotalAmount>
+						<Money currency="USD">Subtotal</Money>
+					</SubtotalAmount>
+					<GrossAmount>
+						<Money currency="USD">Gross</Money>
+					</GrossAmount>
+					<NetAmount>
+						<Money currency="USD">Net</Money>
+					</NetAmount>
+				</InvoiceDetailItem>
+			</InvoiceDetailOrder>
+			<InvoiceDetailSummary>
+				<SubtotalAmount>
+					<Money currency="USD">Subtotal</Money>
+				</SubtotalAmount>
+				<Tax>
+					<Money currency="USD">Tax</Money>
+					<Description xml:lang="en"/>
+					<TaxDetail category="sales">
+						<TaxableAmount>
+							<Money currency="USD">Tax</Money>
+						</TaxableAmount>
+						<TaxAmount>
+							<Money currency="USD">Tax</Money>
+						</TaxAmount>
+					</TaxDetail>
+				</Tax>
+				<SpecialHandlingAmount>
+					<Money currency="USD">0.00</Money>
+				</SpecialHandlingAmount>
+				<ShippingAmount>
+					<Money currency="USD">0.00</Money>
+				</ShippingAmount>
+				<GrossAmount>
+					<Money currency="USD">Total Gross</Money>
+				</GrossAmount>
+				<NetAmount>
+					<Money currency="USD">Total Net</Money>
+				</NetAmount>
+				<DueAmount>
+					<Money currency="USD">Total Due</Money>
+				</DueAmount>
+			</InvoiceDetailSummary>
+		</InvoiceDetailRequest>
+	</Request>
+</cXML>

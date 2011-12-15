@@ -7,3 +7,9 @@ ant all
 
 To run:
 Drop the created war into Tomcat/Jetty/etc.
+
+To test:
+Use the Unix curl command to post a valid cXML:
+
+For example, using the xml file 'STAPLES_sample_invoice.xml' located at / (root) the command would be:
+curl -k --verbose --request POST --header "Content-Type: text/xml" --data @/STAPLES_sample_invoice.xml http://localhost:8080/upload/
